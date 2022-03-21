@@ -1,0 +1,7 @@
+.Data {
+}
+
+.Table_Data > tbody > tr > td {
+    padding-left: 10px;
+    padding-right: 10px;
+}

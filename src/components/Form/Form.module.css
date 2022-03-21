@@ -1,0 +1,33 @@
+.Form {
+}
+
+.Table_Form {
+    border: 0;
+    border-collapse: separate;
+    border-spacing: 0 1rem;
+    border-radius: 15px;
+}
+
+.Table_Form > tbody > tr {
+    height: 40px;
+    background-color: silver;
+}
+
+.Table_Form > tbody > tr > td {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Set border-radius on the top-left and bottom-left of the first table data on the table row */
+.Table_Form > tbody > tr > td:first-child {
+    border-radius: 6px 0 0 6px;
+}
+
+/* Set border-radius on the top-right and bottom-right of the last table data on the table row */
+.Table_Form > tbody > tr > td:last-child {
+    border-radius: 0 6px 6px 0;
+}
+
+.Table_Form > tbody > tr > p {
+    color: red;
+}
